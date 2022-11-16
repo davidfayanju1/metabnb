@@ -1,0 +1,39 @@
+.card-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    border: 1.5px lightgray solid;
+    min-height: 22vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container img {
+    width: 100%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.card-text-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-text-flex p {
+    font-size: 0.75rem;
+    margin-bottom: 0.7rem;
+}
+
+.second-text {
+    text-align: right;
+}
+.second-text > p:not(.second-text > p + p){
+    font-weight: 700;    
+}
+
+.card-text-flex .stars svg {
+    margin-right: .5rem;
+}

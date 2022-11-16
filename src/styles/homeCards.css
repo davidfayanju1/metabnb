@@ -1,0 +1,28 @@
+.cards{
+    padding: 1rem 3rem;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 6rem;
+}
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+
+    .title {
+        font-size: 1.3rem;
+    }
+    .cards {
+        padding: 1rem 2rem;
+    }
+}

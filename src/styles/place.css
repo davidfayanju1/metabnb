@@ -1,0 +1,71 @@
+.places {
+    margin-top: 5rem;
+    padding: 5rem 3rem 4rem 3rem;
+}
+
+.places__topbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.places__topbar ul li {
+    list-style: none;
+    cursor: pointer;
+    margin-right: 4.2%;
+}
+
+.places__topbar ul button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: white;
+    border: lightgray 1px solid;
+    height: 2.3rem;
+    width: 8rem;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.places_card_grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 1.5rem;
+}
+
+.mobile-dropdown {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .mobile-dropdown {
+        display: block; 
+    }
+    
+    .mobile-dropdown select {
+        border: 1px lightgray solid;
+        height: 2.3rem;
+        width: 10rem;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-right: 4rem;
+        padding: 0rem 1rem;
+    }
+
+    .places__topbar ul li {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+
+    .places {
+        padding: 5rem 1.5rem 4rem 1.5rem;
+    }
+    
+
+}

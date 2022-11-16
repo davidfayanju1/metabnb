@@ -1,0 +1,53 @@
+footer {
+    width: 100%;
+    min-height: 57vh;
+    background-color: black;
+    padding: 4rem 6rem 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.footer__social-icons svg {
+    margin-right: 1.7rem;
+}
+
+footer p {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+}
+
+.body h4 {
+    color: #fff;
+    margin-bottom: 1.4rem;
+}
+
+.copyright {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.copyright p {
+    margin-bottom: 0rem;
+}
+
+@media screen and (max-width: 950px) {
+
+    .logo svg {
+        height: 2.5rem;
+    }
+
+    footer {
+        padding: 4rem 1.4rem;
+    }
+}

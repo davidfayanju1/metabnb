@@ -1,0 +1,145 @@
+section {
+    margin-top: 5rem;
+}
+
+.hero-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2.9rem 0rem 2.9rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.hero-text {
+    width: 53%;
+    height: 100%;
+}
+
+.hero-text h2 {
+    font-weight: 400;
+   color: #434343;
+   margin-bottom: 1.5rem;
+   font-size: 3.4vw;
+   
+}
+
+.hero-text p {
+    margin-bottom: 1.7rem;
+    font-size: 1.52rem;
+    word-wrap: break-word;
+}
+.hero-text span {
+   color: #A02279;
+   font-weight: 500;
+}
+
+.hero-text form {
+    width: 93%;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text form input {
+    width: 60%;
+    font-size: 16px;
+    padding: .7rem 1rem;
+    border: lightgray solid 2px;
+    outline: none;
+}
+
+.hero-text form input::placeholder {
+    font-size: 13px;
+    color: rgb(196, 190, 190);
+}
+
+.hero-text form button {
+    width: 40%;
+    cursor: pointer;
+    height: 2.8rem;
+    background-color: #A02279;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Red rose', cursive;
+}
+
+
+.image-flex {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.first-img {
+    width: 98%;
+    margin-top: 5.1rem;
+}
+
+.second-img {
+    width: 98%;
+}
+
+.first-img img, .second-img img {
+    width: 96%;
+}
+
+.hero-bottom {
+    min-height: 10vh;
+    width: 100%;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    padding: 1rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-bottom img {
+    width: 17%;
+}
+
+@media screen and (max-width: 950px) {
+
+    .hero-top {
+        flex-direction: column;
+        padding: 3rem 1.2rem 0rem 1.2rem;
+    }
+
+    .hero-text {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.7rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+
+    .image-flex {
+        width: 100%;
+        margin-right: 0rem;
+        height: 100%;
+    }
+
+    .first-img, .second-img {
+        width: 60%;
+        margin-top: 0rem;
+    }
+
+    .hero-bottom {
+        padding: 1rem 1rem;
+    }
+
+    .hero-bottom img {
+        width: 26%;
+        margin-bottom: 1rem;
+    }
+}
